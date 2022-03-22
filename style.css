@@ -1,0 +1,148 @@
+html
+{
+  font-family: "Verdana";
+  color:#000;
+  text-align: justify;
+  background-color:#FFFFFF;
+}
+
+body
+{
+  margin:auto;
+  background-color: #FFFFFF;
+  max-width: 640px;
+  padding:2em;
+  //box-shadow: 0px 0px 5px #DDD;
+  border-right:1px solid #DDD;
+  border-left:1px solid #DDD;
+}
+
+#documents ul
+{
+  list-style-type: none;
+  text-align:center;
+}
+
+img
+{
+  width:100%;
+}
+
+figure
+{
+  background-color: #fffbf5;
+  padding:1em;
+  border: 1px solid #CCC;
+}
+
+table
+{
+  border-collapse: collapse;
+  background-color: #f8f8f8;
+}
+
+td
+{
+  padding:1em;
+  text-align: center;
+  border:1px solid #DDD;
+}
+
+figcaption::before
+{
+  content:"Figure : ";
+  font-weight: bold;
+}
+
+figcaption
+{
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+  color:#ffb300;
+}
+
+#documents li
+{
+  display: inline-block;
+  padding : 0em 0.5em;
+}
+
+.abstract::before
+{
+  content:"Abstract : ";
+  font-weight: bold;
+}
+
+.panel
+{
+  background-color: #f8f8f8;
+  padding:1em;
+  margin-top:1em;
+  border : 1px solid #CCC;
+}
+
+#portrait
+{
+  max-width: 25%;
+  text-align: center;
+  object-fit: cover;
+  height:200px;
+  border-radius:5%;
+  display:inline-block;
+  margin-right:2%;
+}
+
+#aboutme
+{
+  width:65%;
+  display:inline-block;
+  vertical-align: bottom;
+  text-align:justify;
+}
+
+#header
+{
+  text-align:center;
+}
+
+h1
+{
+  text-align: center;
+  font-weight: normal;
+  margin-top:0;
+}
+
+h2
+{
+  border-bottom: 1px solid #AAAAAA;
+  font-variant: small-caps;
+  font-weight: normal;
+}
+
+h3
+{
+  font-weight: normal;
+}
+
+h4
+{
+  margin-top:0em;
+  font-weight: bold;
+}
+
+a
+{
+  color : #1cc5f9;
+}
+
+a:visited
+{
+  color: #0f99ec;
+}
+
+.related_links
+{
+  display:block;
+  margin-top: 1em;
+}
